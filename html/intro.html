@@ -1,0 +1,34 @@
+<!-- Html Declaration yapmak için ! işaretine basıp tab tuşu ile
+ '!DOCTYPE html' yapısını sayfamıza ekleyebilir.-->
+ <!DOCTYPE html>
+ <!-- DOCTYPE bu sayfanın türünün browser tarafından anlaşılması için declare edilir. Html sayfalarında kullanılır-->
+
+ <html lang="tr"> <!--lang özelliği arama motorlarına sayfa dilini belirtmek için kullanılır. Gelişmiş arama yapılırken lang özelliği sayesinde arama özelleştirilir. Ülkelerin ISO formatında kodları vardır. Daha detaylı bilgiye https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes sitesinden ulaşabilirsiniz-->
+ <head>
+    <!--Head etiketi html sayfasındaki iki ana etiket bölümünden birisidir. Head etiketi içerisine yazılan komutlar tarayıcı ve arama motorları tarafından kullanılır. Siteyi ziyaret edenler bu kısımları görmez-->
+    <meta charset="UTF-8">
+    <!--meta etiketi tarayıcı(browser) ve arama motorlarına html sayfası ile ilgili bilgiler verir. charset özelliği hangi karakter setinin sayfada kullanılacağını belirtir. UTF-8: Unicode Transformation Format - 8-bit'in kısaltmasıdır ve dünya çapında en yaygın kullanılan karakter kodlamasıdır. UTF-8, neredeyse tüm dilleri ve özel sembolleri destekler. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- name="viewport": Görüntüleme alanını (viewport) hedefler. "Viewport," cihaz ekranındaki görünür alanı ifade eder. content özelliği: Görüntüleme alanının nasıl davranması gerektiğini belirler. İçeriği çeşitli ayarları içerir:width=device-width Görüntüleme alanının genişliğini cihazın ekran genişliğine ayarlar. initial-scale=1.0 Sayfanın başlangıçtaki yakınlaştırma seviyesini (zoom) tanımlar. 1.0 değeri, sayfanın %100 ölçekle (gerçek boyutunda) gösterileceğini belirtir.
+     Bu etiket ve özellikler neden kullanılır?
+     Mobil Uyumluluk: Mobil cihazların ekranları, masaüstü cihazlardan daha küçüktür. Bu meta etiketi, web sayfasının mobil cihazlarda düzgün bir şekilde ölçeklenmesini ve okunabilir olmasını sağlar.
+     Responsive Tasarım: Web sayfasının, cihaz ekran boyutlarına göre otomatik olarak uyarlanmasını mümkün kılar.
+     SEO: Google gibi arama motorları, mobil uyumlu siteleri tercih eder. Bu etiket, mobil uyum için gereklidir.
+     -->
+    <title>Document</title>
+    <!--title etiketi Web sayfasının etiketini belirler. Başlık nerelerde gösterilir?
+    Sayfanın bağlığı tarayıcı sekmesinde görülür
+    Sayfa bir yer imine(bookmark) eklenirse başlık yer imi adı olarak gösterilir
+    Başlık genellikle arama motorlarının sayfanızı listelediği sonuçlarda başlık olarak gösterilir.
+    title etiketi bir sayfada sadece bir sefer kullanılır. Gerçek hayat uygulamalarında title nın düzgün belirlenmesi gerekmektedir
+    SEO uyumu ve kullanıcı deneyimi için title ın sayfa içeriği ile ilgili olması önemlidir-->
+    
+ </head>
+ <!--Yukarıda head etiketi bitmiştir. Tarayıcı ve arama motorlarını ilgilendiren kodlar head içerisine yazılmalıdır. External(dışarıdan) css dosyaları head içerisinde çalışmaya dahil edilmelidir. Yine style etiketi head içerisinde kullanılır-->
+ <body>
+    <!-- Bu kısım sitemizi ziyaret eden insanlar tarafından görülecek kısımdır. Sitenin görünür tarafının tamamı bu kısmın içerisinde tanımlanır ve gerçekleştirilir.-->
+ </body>
+ <!-- Yukarıda body nin kapanış etiketi ile body bitmiştir. Body bitmeden hemen öncesinde external(dışarıdan-harici) javascript dosyası eklemek yada belge içerisinde script etiketini kullanmak istersek bu tanımlamaları yapmalıyız. Bu tanımlamalardan sonra html etiketleri eklememeliyiz. Sayfadaki tüm html css işlemleri bu aşamaya kadar bitmiş olmalı-->
+ </html>
+ <!-- html kapanış etiketi ile bu sayfanın bir html dökümanı olduğu ve kapanışının gerçekleştiği tarayıcıya bildirilmektedir. Bu etiketin dışında kalan kısımlar hataya yol açacaktır.-->
